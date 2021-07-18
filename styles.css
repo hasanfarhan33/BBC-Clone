@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: white;
+}
+
+.bbcAccount {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 15vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.bbcAccount:hover {
+  border-bottom: 4px solid #1188bb;
+}
+
+.bbcAccount p {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+.profileIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.sections a {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-left: 1px solid black;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sections .more {
+  padding-right: 7vw;
+  border-right: 1px solid black;
+}
+
+.bbcLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 2vw;
+}
+
+.bbcIcon {
+  width: 100px;
+  height: 30px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.searchBar {
+  background-color: #e4e4e4;
+  border: none;
+  padding: 5px;
+}
+
+.searchButton {
+  background-color: #e4e4e4;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon {
+  height: 15px;
+  width: 15px;
+}
+
+.home:hover {
+  border-bottom: 4px solid black;
+}
+
+.news:hover {
+  border-bottom: 4px solid #bb1919;
+}
+
+.sport:hover {
+  border-bottom: 4px solid #ffd230;
+}
+
+.reel:hover {
+  border-bottom: 4px solid #0068ff;
+}
+
+.worklife:hover {
+  border-bottom: 4px solid #0052a1;
+}
+
+.travel:hover {
+  border-bottom: 4px solid #589e50;
+}
+
+.future:hover {
+  border-bottom: 4px solid #002856;
+}
+
+.culture:hover {
+  border-bottom: 4px solid #482878;
+}
+
+.more:hover {
+  border-bottom: 4px solid #262626;
+}
